@@ -10,9 +10,7 @@ export default function segmentsRemaining() {
   const currentHours = now.getHours();
   const currentMinutes = now.getMinutes();
   const current = currentHours * 60 + currentMinutes;  // Current time in minutes
-  // log current time
-  console.log(currentHours);
-  console.log(currentMinutes);
+
   // Determine which shift we are in
   let shift;
   if (current >= 7.5 * 60 && current <= 19.5 * 60) {
