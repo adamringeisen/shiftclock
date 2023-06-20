@@ -42,5 +42,5 @@ export default function segmentsRemaining() {
   let remaining = end - adjustedCurrent;
 
   // Convert remaining time to 30-minute segments and return
-  return Math.floor(remaining / 30) + 1;
+  return Math.floor(remaining / 30);
 }
